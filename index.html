@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Safari Garage — Restorasi, Penitipan, Perawatan & Sewa Mobil Klasik</title>
+<meta name="description" content="Safari Garage: restorasi mesin & bodi, penitipan, perawatan, dan penyewaan mobil klasik.">
+<link rel="icon" href="logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="wrap nav-in">
+    <a class="brand" href="#atas" aria-label="Safari Garage, beranda">
+      <img src="logo.png" alt="" width="46" height="46">
+      <span>Safari Garage</span>
+    </a>
+    <nav id="menu" aria-label="Menu utama">
+      <a href="#layanan">Layanan</a>
+      <a href="#sewa">Sewa Mobil</a>
+      <a href="#proses">Proses</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+    <a class="btn btn-sm" href="#kontak">Konsultasi</a>
+    <button class="burger" id="burger" aria-label="Buka menu" aria-expanded="false" aria-controls="menu"><i></i><i></i><i></i></button>
+  </div>
+</header>
+
+<main id="atas">
+
+  <section class="hero">
+    <div class="wrap hero-in">
+      <div class="hero-text">
+        <h1>Klasik tak pernah mati. Ia hanya butuh garasi yang tepat.</h1>
+        <p>Safari Garage merestorasi, merawat, menitipkan, dan menyewakan mobil klasik dengan ketelitian seorang kolektor.</p>
+        <div class="cta">
+          <a class="btn" href="#sewa">Lihat armada sewa</a>
+          <a class="btn btn-line" href="#layanan">Layanan kami</a>
+        </div>
+      </div>
+      <div class="hero-logo">
+        <img src="logo.png" alt="Logo Safari Garage: mobil klasik di dalam roda gigi dengan tanduk dan pegunungan" width="420" height="420">
+      </div>
+    </div>
+  </section>
+
+  <section id="layanan" class="sec">
+    <div class="wrap">
+      <div class="head">
+        <h2>Layanan kami</h2>
+        <p>Dari bengkel sampai etalase, semua kebutuhan mobil klasik Anda ada di satu tempat.</p>
+      </div>
+      <div class="grid svc-grid">
+        <article class="svc">
+          <h3>Restorasi mobil &amp; bodi</h3>
+          <p>Mengembalikan mobil tua ke bentuk dan karakter aslinya.</p>
+          <ul><li>Perbaikan bodi &amp; cat ulang</li><li>Overhaul mesin &amp; kelistrikan</li><li>Interior, kaki-kaki, dan detail krom</li></ul>
+        </article>
+        <article class="svc">
+          <h3>Penitipan</h3>
+          <p>Garasi tertutup yang aman untuk koleksi Anda.</p>
+          <ul><li>Ruang tertutup &amp; pengawasan</li><li>Mesin dipanaskan berkala</li><li>Paket bulanan atau jangka panjang</li></ul>
+        </article>
+        <article class="svc">
+          <h3>Perawatan</h3>
+          <p>Servis rutin dari mekanik yang paham watak mobil lama.</p>
+          <ul><li>Servis berkala &amp; tune-up</li><li>Ganti oli, filter, dan cairan</li><li>Pengecekan menyeluruh</li></ul>
+        </article>
+        <article class="svc">
+          <h3>Sewa mobil klasik</h3>
+          <p>Armada terawat, tersedia dengan atau tanpa sopir.</p>
+          <ul><li>Pernikahan &amp; prewedding</li><li>Foto, video &amp; film</li><li>Acara perusahaan &amp; komunitas</li></ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="sewa" class="sec dark">
+    <div class="wrap">
+      <div class="head">
+        <h2>Armada sewa</h2>
+        <p>Enam mobil klasik siap tampil. Pilih satu, lalu tanyakan tanggal dan harga lewat WhatsApp.</p>
+      </div>
+      <div class="grid fleet">
+        <article class="car">
+          <div class="photo" style="--img:url('img/fj55.jpg')"><span>FJ55</span></div>
+          <div class="car-body">
+            <h3>Toyota Land Cruiser FJ55</h3>
+            <p>Si “Moose” yang legendaris. Bodi lebar dan gagah, cocok untuk foto maupun petualangan.</p>
+            <a href="#kontak" data-car="Toyota Land Cruiser FJ55">Tanya sewa</a>
+          </div>
+        </article>
+        <article class="car">
+          <div class="photo" style="--img:url('img/fj60.jpg')"><span>FJ60</span></div>
+          <div class="car-body">
+            <h3>Toyota Land Cruiser FJ60</h3>
+            <p>Wagon tangguh dengan kabin luas. Klasik, kokoh, dan nyaman untuk rombongan.</p>
+            <a href="#kontak" data-car="Toyota Land Cruiser FJ60">Tanya sewa</a>
+          </div>
+        </article>
+        <article class="car">
+          <div class="photo" style="--img:url('img/fiat132.jpg')"><span>132 GLS</span></div>
+          <div class="car-body">
+            <h3>Fiat 132 GLS</h3>
+            <p>Sedan Italia yang elegan. Pilihan hangat untuk pengantin dan sesi foto.</p>
+            <a href="#kontak" data-car="Fiat 132 GLS">Tanya sewa</a>
+          </div>
+        </article>
+        <article class="car">
+          <div class="photo" style="--img:url('img/holden.jpg')"><span>Special</span></div>
+          <div class="car-body">
+            <h3>Holden Special</h3>
+            <p>Sedan Australia bergaya klasik. Lega, berwibawa, dan jarang terlihat di jalan.</p>
+            <a href="#kontak" data-car="Holden Special">Tanya sewa</a>
+          </div>
+        </article>
+        <article class="car">
+          <div class="photo" style="--img:url('img/brabus280e.jpg')"><span>280E</span></div>
+          <div class="car-body">
+            <h3>Mercy Brabus 280E <em>Automatic</em></h3>
+            <p>Mercedes-Benz 280E berpenampilan Brabus dengan transmisi otomatis. Mewah dan mudah dikendarai.</p>
+            <a href="#kontak" data-car="Mercy Brabus 280E Automatic">Tanya sewa</a>
+          </div>
+        </article>
+        <article class="car">
+          <div class="photo" style="--img:url('img/mini200bb.jpg')"><span>200BB</span></div>
+          <div class="car-body">
+            <h3>Mercy Mini 200BB</h3>
+            <p>Mercedes-Benz klasik yang ringkas dan manis. Penuh pesona untuk tampil beda.</p>
+            <a href="#kontak" data-car="Mercy Mini 200BB">Tanya sewa</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="proses" class="sec">
+    <div class="wrap">
+      <div class="head">
+        <h2>Alur restorasi</h2>
+        <p>Setiap proyek berjalan dalam empat tahap yang jelas.</p>
+      </div>
+      <ol class="steps">
+        <li><h3>Konsultasi</h3><p>Ceritakan kondisi mobil dan hasil yang Anda inginkan.</p></li>
+        <li><h3>Inspeksi &amp; estimasi</h3><p>Kami periksa menyeluruh, lalu beri rincian biaya dan waktu.</p></li>
+        <li><h3>Pengerjaan</h3><p>Progres dilaporkan dengan foto selama pengerjaan.</p></li>
+        <li><h3>Serah terima</h3><p>Uji jalan bersama, lalu mobil siap Anda bawa pulang.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="kontak" class="sec contact">
+    <div class="wrap contact-in">
+      <div>
+        <div class="head">
+          <h2>Hubungi kami</h2>
+          <p>Isi form di samping. Pesan Anda akan terkirim ke WhatsApp Safari Garage.</p>
+        </div>
+        <dl class="info">
+          <dt>Alamat</dt><dd>Jl. Contoh Raya No. 12, Tangerang</dd>
+          <dt>WhatsApp</dt><dd>0812-3456-7890</dd>
+          <dt>Jam buka</dt><dd>Senin–Sabtu, 08.00–17.00</dd>
+        </dl>
+      </div>
+      <form id="form" novalidate>
+        <label for="nama">Nama
+          <input id="nama" name="nama" autocomplete="name" required>
+        </label>
+        <label for="layanan-pilih">Layanan
+          <select id="layanan-pilih" name="layanan">
+            <option>Restorasi mobil &amp; bodi</option>
+            <option>Penitipan mobil klasik</option>
+            <option>Perawatan mobil</option>
+            <option>Sewa mobil klasik</option>
+          </select>
+        </label>
+        <label for="detail">Mobil &amp; detail kebutuhan
+          <textarea id="detail" name="detail" rows="4" placeholder="Contoh: Sewa Fiat 132 GLS untuk 20 Desember"></textarea>
+        </label>
+        <p class="err" id="err" role="alert" hidden>Mohon isi nama Anda terlebih dahulu.</p>
+        <button class="btn" type="submit">Kirim via WhatsApp</button>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <div class="foot-brand"><img src="logo.png" alt="" width="44" height="44"><strong>Safari Garage</strong></div>
+    <span>Restorasi · Penitipan · Perawatan · Sewa mobil klasik</span>
+    <span>© <span id="year">2026</span> Safari Garage</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
